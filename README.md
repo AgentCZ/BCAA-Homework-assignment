@@ -4,15 +4,6 @@ Webová aplikace pro evidenci léků a záznamů o jejich užití.
 
 ---
 
-## Stack
-
-| Vrstva    | Technologie                                                                  |
-| --------- | ---------------------------------------------------------------------------- |
-| Backend   | Node.js 18+, Express, AJV (validace), JSON souborové úložiště                |
-| Frontend  | React 18, **Next.js 14** (App Router), **Tailwind CSS**, nativní `fetch` API |
-
----
-
 ## Struktura projektu
 
 ```
