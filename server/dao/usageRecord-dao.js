@@ -24,7 +24,7 @@ function get(usageRecordId) {
 function create(usageRecord) {
   try {
     usageRecord.id = crypto.randomBytes(16).toString("hex");
-    // if timestamp is not provided, use current time (backend default)
+    // if timestamp is not provided, use current time
     if (!usageRecord.timestamp) {
       usageRecord.timestamp = new Date().toISOString();
     }

@@ -5,8 +5,8 @@ const port = 8888;
 const medicationController = require("./controller/medication");
 const usageRecordController = require("./controller/usageRecord");
 
-app.use(express.json()); // podpora pro application/json
-app.use(express.urlencoded({ extended: true })); // podpora pro application/x-www-form-urlencoded
+app.use(express.json());
+app.use(express.urlencoded({ extended: true })); 
 
 app.get("/", (req, res) => {
   res.send("MedLog backend is running.");
